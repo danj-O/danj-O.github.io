@@ -75,7 +75,7 @@ a {
 
 .container {
     display: flex;
-    background-image: url("./img/salon1.jpg");
+    background-image: url("https://danj-o.github.io/img/salon.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
