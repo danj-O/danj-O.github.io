@@ -86,6 +86,7 @@ a {
 .container {
     background-position: top;
     background-size: contain;
+    background-attachment: fixed;
     height: 35vh;
 }
 }
