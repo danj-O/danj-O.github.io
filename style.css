@@ -81,6 +81,7 @@ a {
     background-size: cover;
     background-position: center center;
     height: 80vh;
+    /* width: 100%; */
 }
 @media only screen and (max-width: 450px) {
 .container {
@@ -88,6 +89,7 @@ a {
     background-size: contain;
     background-attachment: fixed;
     height: 35vh;
+    width: 100%
 }
 }
 /* CONTENT  */
