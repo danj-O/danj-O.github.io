@@ -96,7 +96,7 @@ a {
 
 .content {
     display: grid;
-    gap: 3vh 10vh;
+    grid-gap: 3vh 10vh;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 1.1em;
