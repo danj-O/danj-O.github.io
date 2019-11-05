@@ -75,12 +75,12 @@ a {
 
 .container {
     display: flex;
-    background-image: url("https://danj-o.github.io/img/salon.jpg");
+    background-image: url("./img/salon.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
-    height: 75vh;
+    height: 80vh;
 }
 @media only screen and (max-width: 450px) {
 .container {
@@ -93,11 +93,11 @@ a {
 
 .content {
     display: grid;
-    grid-gap: 3vh 10vh;
+    gap: 3vh 10vh;
     background-color: rgb(255, 255, 255);
     grid-template-columns: 1fr 1fr 1fr;
     font-size: 1.1em;
-    margin: 3vh;
+    margin: 0vh 3vh;
 }
 .box {
     padding: 0px 0px 20px 0px;
@@ -114,7 +114,8 @@ a {
     border-bottom-width: 1px;
     font-size: 2em;
     font-family: 'Sacramento', cursive;
-    padding: 15px 0px 15px 0px;;
+    padding: 15px 0px 15px 0px;
+    margin: 0;
 }
 .box2,
 .box5,
