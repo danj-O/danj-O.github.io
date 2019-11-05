@@ -75,7 +75,7 @@ a {
 
 .container {
     display: flex;
-    background-image: url("./img/salon.jpg");
+    background-image: url("./img/salon.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
