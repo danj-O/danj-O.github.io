@@ -26,7 +26,6 @@ li a {
 }
 li a:hover {
   color: rgb(206, 187, 21);
-  /* background-color: aquamarine; */
   transform: scale(1.2);
 }
 li a:active {
@@ -55,32 +54,3 @@ li a:active {
   position: relative;
   top: 15px;
 }
-.button1 {
-  font-family: monospace;
-  font-size: 2em;
-  text-align: center;
-  position: relative;
-  top: 75%;
-  left: 40%;
-  transform: translate(-50%, -50%);
-  background-color:rgba(0, 0, 0, .7);
-  padding: 10px 10px;
-  border-radius: 15px;
-  transition: all 1s;
-  text-decoration: none;
-  color: white;
-}
-.button1:hover {
-  background-color: rgba(170,57,57,.7);
-}
-.button1:active {
-  background-color: chocolate;
-}
-/* .button1 a {
-  text-decoration: none;
-  color: white;
-}
-div.para {
-  background-color: brown;
-  color: white;
-} */
