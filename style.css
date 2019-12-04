@@ -11,15 +11,15 @@ html {
 .dropdown {
   /* display: inline-flex; */
   list-style: none;
-  /* margin: 0; */
-  padding: 0;
+  margin: 0;
+  /* padding: 0; */
   /* overflow: hidden; */
 } 
 .dropbtn {
-  font-size: 3em;
+  font-size: 4em;
 }
 div a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: block;
   padding: 10px 20px;
   margin: 1px;
@@ -27,9 +27,9 @@ div a {
   text-decoration: none;
   transition: all 1s;
 }
-div a:hover {
+.dropbtn:hover {
   color: #EAD71D;
-  /* transform: scale(1); */
+  transform: scale(1.03);
 }
 div a:active {
   color: black;
@@ -38,21 +38,22 @@ div a:active {
 .dropdown-content {
   display: none;
   position: absolute;
-  /* min-width: 160px; */
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: 2em;
+  background: rgba(0,0,0,0.1);
+  /* border-radius: 2px; */
 }
 
 .dropdown-content a {
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
   text-decoration: none;
   text-align: left;
 }
 
 .dropdown-content a:hover {
   color: rgb(206, 187, 21);
-  transform: scale(1);
+  /* transform: scale(2); */
 }
 
 .show {
@@ -61,15 +62,15 @@ div a:active {
 
 /* -------COVER PHOTO------ */
 .container {
-  display: block;
-  width: relative;
+  /* display: block; */
+  /* width: relative; */
   height: 80vh;
-  /* background-image: url(splash.jpg); */
+  /* background-image: url(splash.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: relative; */
   animation: pulse 12s infinite;
 }
 @keyframes pulse {
@@ -91,7 +92,18 @@ div a:active {
   position: relative;
   top: 15px;
 }
+@media only screen and (max-width: 450px){
+  .dropdown-content {
+    position: static;
+  }
+  .container .logo {
+    font-size: 5em;
+  }
+}
 /* ----------MAIN BODY ----------*/
 .bodyContainer {
   color: white;
+}
+.about {
+  padding: 3px 8vw;
 }
