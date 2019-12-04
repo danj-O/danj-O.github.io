@@ -15,6 +15,9 @@ html {
   /* padding: 0; */
   /* overflow: hidden; */
 } 
+.topnav {
+  /* position: fixed; */
+}
 .dropbtn {
   font-size: 4em;
 }
@@ -25,13 +28,13 @@ div a {
   margin: 1px;
   /* background-color: black; */
   text-decoration: none;
-  transition: all 1s;
+  transition: all 0.8s;
 }
 .dropbtn:hover {
   color: #EAD71D;
   transform: scale(1.03);
 }
-div a:active {
+.dropbtn:active {
   color: black;
   /* background-color: white; */
 }
@@ -71,7 +74,7 @@ div a:active {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; */
-  animation: pulse 12s infinite;
+  animation: pulse 10s infinite;
 }
 @keyframes pulse {
   0%, 100% {
@@ -106,4 +109,7 @@ div a:active {
 }
 .about {
   padding: 3px 8vw;
+}
+.about h1 {
+
 }
