@@ -143,10 +143,10 @@ div a {
 }
 @media only screen and (max-width: 450px){
   .dropdown-content {
-    position: static;
+    /* position: static; */
   }
   .container .header {
-    font-size: 4em;
+    font-size: 3em;
   }
   .container .subHead {
     font-size: 1em;
