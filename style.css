@@ -7,20 +7,36 @@ html {
   height: 100%;
   color: white;
   background-color: black;
+  animation: pulse 15s infinite;
 }
 /* --------DROPDOWN RELATED--------- */
 .dropdown {
-  /* display: inline-flex; */
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
   list-style: none;
   margin: 0;
   /* padding: 0; */
   /* overflow: hidden; */
+  position: fixed;
 } 
+.icons {
+  /* padding: 0px 0px 0px 100px; */
+  /* margin-right: 10px; */
+  margin-left: 80vw;
+  /* justify-content: flex-end; */
+}
+.icons img {
+  max-width: 4vw;
+  min-width: 50px;
+  width: 100%;
+  height: auto;
+}
 .topnav {
   /* position: fixed; */
 }
 .dropbtn {
   font-size: 4em;
+  /* margin-left: 90vw;  */
 }
 div a {
   color: rgb(255, 255, 255);
@@ -44,8 +60,9 @@ div a {
   position: absolute;
   box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  font-size: 1em;
+  font-size: 1.4em;
   background: rgba(0,0,0,0.1);
+  margin-top: 10vh; 
   /* border-radius: 2px; */
 }
 
@@ -68,24 +85,24 @@ div a {
 .container {
   /* display: block; */
   /* width: relative; */
-  height: 80vh;
+  height: 100vh;
   /* background-image: url(splash.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; */
-  animation: pulse 10s infinite;
+  animation: pulse 15s infinite;
 }
 @keyframes pulse {
   0%, 100% {
     background-color: #EAD71D;
   }
   33% {
-    background-color: #EA761D;
+    background-color: #EA651D;
   }
-  33% {
-    background-color: #17B52A;
+  66% {
+    background-color: #15A754;
   }
 }
 .container .logo {
@@ -93,13 +110,13 @@ div a {
   /* font-family: 'Mansalva', cursive; */
   /* text-align: center; */
   position: relative;
-  top: 15px;
+  top: 30vh;
   padding: 0px 10vw;
 }
 .container .header {
-  font-size: 10em;
+  font-size: 6em;
 }
-.container .about {
+.container .subHead {
   font-size: 2em;
 }
 @media only screen and (max-width: 450px){
@@ -109,17 +126,26 @@ div a {
   .container .header {
     font-size: 4em;
   }
-  .container .about {
+  .container .subHead {
     font-size: 1em;
   }
 }
 /* ----------MAIN BODY ----------*/
 .bodyContainer {
+  font-size: 1em;
   color: white;
 }
-.bodyContainer .about {
-  padding: 3px 8vw;
+.about {
+  padding: 80px 8vw;
+  background-color: black;
+  box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.6);
 }
 .about h1 {
-
+  
+}
+.split {
+  text-align: right;
+  color: black;
+  padding: 20vh 5vw;
+  font-size: 3em;
 }
