@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body,
 html {
   margin: 0;
@@ -7,7 +10,7 @@ html {
   height: 100%;
   color: white;
   background-color: black;
-  animation: pulse 15s infinite;
+  animation: pulseCol 15s infinite;
 }
 /* --------DROPDOWN RELATED--------- */
 .dropdown {
@@ -48,7 +51,7 @@ div a {
   transition: all 0.8s;
 }
 .dropbtn:hover {
-  color: #EAD71D;
+  color: rgb(99, 99, 99);
   transform: scale(1.03);
 }
 .dropbtn:active {
@@ -73,7 +76,7 @@ div a {
 }
 
 .dropdown-content a:hover {
-  color: rgb(206, 187, 21);
+  color: rgb(0, 0, 0);
   /* transform: scale(2); */
 }
 
@@ -113,9 +116,9 @@ div a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; */
-  animation: pulse 15s infinite;
+  animation: pulseCol 15s infinite;
 }
-@keyframes pulse {
+@keyframes pulseCol {
   0%, 100% {
     background-color: #EA651D;
   }
@@ -153,7 +156,7 @@ div a {
 }
 /* ----------MAIN BODY ----------*/
 .bodyContainer {
-  font-size: 1em;
+  font-size: 1.2em;
   color: white;
 }
 .about {
@@ -169,4 +172,10 @@ div a {
   color: black;
   padding: 20vh 5vw;
   font-size: 3em;
+}
+
+/* ----------FOOTER---------- */
+.footer {
+  font-size: 3em;
+  padding: 20vh 20vw;
 }
