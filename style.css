@@ -157,7 +157,7 @@ div a {
   color: white;
 }
 .about {
-  padding: 80px 8vw;
+  padding: 20px 8vw 60px 8vw;
   background-color: black;
   box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.6);
 }
@@ -165,14 +165,17 @@ div a {
   padding: 0;
   margin-left: 85vw;
 }
-.about h1 {
-  
-}
 .split {
   text-align: right;
   color: black;
   padding: 20vh 5vw;
   font-size: 3em;
+}
+.arrow img {
+  /* max-width: 4vw; */
+  min-width: 50px;
+  width: 100%;
+  height: auto;
 }
 @media only screen and (max-width: 700px){
   .home_link {
