@@ -24,12 +24,16 @@ html {
   /* margin-right: 10px; */
   margin-left: 80vw;
   /* justify-content: flex-end; */
+  transition: all 0.8s;
 }
 .icons img {
   max-width: 4vw;
   min-width: 50px;
   width: 100%;
   height: auto;
+}
+.icon:hover {
+  transform: scale(1.2);
 }
 .topnav {
   /* position: fixed; */
