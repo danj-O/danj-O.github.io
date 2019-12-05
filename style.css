@@ -179,6 +179,13 @@ div a {
     margin-left: 80vw;
   }
 }
+@media only screen and (max-width: 450px){
+  .bodyContainer {
+    font-size: .7em;
+  }
+  .home_link {
+    margin-left: 75vw;
+  }
 
 /* ----------FOOTER---------- */
 .footer {
