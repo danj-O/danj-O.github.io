@@ -20,10 +20,7 @@ html {
   position: fixed;
 } 
 .icons {
-  /* padding: 0px 0px 0px 100px; */
-  /* margin-right: 10px; */
-  margin-left: 80vw;
-  /* justify-content: flex-end; */
+  margin-left: 87vw;
   transition: all 0.8s;
 }
 .icons img {
@@ -84,6 +81,27 @@ div a {
 .show {
   display: block;
 }
+/* ----------RESPONSIVE NAVBAR & ICONS----------- */
+@media only screen and (max-width: 1100px){
+  .icons {
+    margin-left: 85vw;
+  }
+}
+@media only screen and (max-width: 950px){
+  .icons {
+    margin-left: 80vw;
+  }
+}
+@media only screen and (max-width: 750px){
+  .icons {
+    margin-left: 77vw;
+  }
+}
+@media only screen and (max-width: 450px){
+  .icons {
+    margin-left: 60vw;
+  }
+}
 
 /* -------COVER PHOTO------ */
 .container {
@@ -100,10 +118,10 @@ div a {
 }
 @keyframes pulse {
   0%, 100% {
-    background-color: #EAD71D;
+    background-color: #EA651D;
   }
   33% {
-    background-color: #EA651D;
+    background-color: #EAD71D;
   }
   66% {
     background-color: #15A754;
