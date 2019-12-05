@@ -34,9 +34,6 @@ html {
 .icon:hover {
   transform: scale(1.2);
 }
-.topnav {
-  /* position: fixed; */
-}
 .dropbtn {
   font-size: 4em;
   /* margin-left: 90vw;  */
@@ -171,12 +168,21 @@ div a {
   padding: 20vh 5vw;
   font-size: 3em;
 }
+/* .arrowstuff {
+  transition: all 0.8s;
+}
+.arrow {
+  transition: all 0.8s;
+} */
 .arrow img {
   /* max-width: 4vw; */
   min-width: 50px;
   width: 100%;
   height: auto;
 }
+/* .arrow:hover {
+  transform: scale(2);
+} */
 @media only screen and (max-width: 700px){
   .home_link {
     margin-left: 80vw;
