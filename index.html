@@ -9,7 +9,7 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link rel='stylesheet' type='text/css' href='style.css'>
 </head>
-<body>
+<body">
     <!-- ----------NAV BAR-------- -->
     <div class="container">
         <div class="dropdown">
@@ -30,7 +30,7 @@
                 Dan <br> Scott
             </div>
             <div class="subHead animated fadeIn slow">
-                Front-End Developement, Design, Music, Tinker
+                Front-End Development, Design, Music, Tinker
             </div>
         </div>
         <div class="element">  
@@ -50,8 +50,9 @@
             <p>Perpetual learner</p>
             <br>
             <h2>Things I'm good at</h2>
-            <p>Self taught Front-End Developer</p>
-            <p>Musician for 9 years with Puddles</p>
+            <p>Self taught programming</p>
+            <p>Music</p>
+            <p>Chinese (Mandarin)</p>
             <p>DSP Developement with Pure Data</p>
         </div>
         <div class="split">
@@ -64,41 +65,68 @@
                 </a>
             </div>
             <H1>Projects</H1>
-            <p>Passion for making things look nice</p>
-            <p>Attention to detail</p>
-            <p>Perpetual learner</p>
-            <H1>Daniel Scott</H1>
-            <h2>Artist, Musician, Programmer, Tinkerer</h2>
-            <p>Passion for making things look nice</p>
-            <p>Attention to detail</p>
-            <p>Perpetual learner</p>
-        </div>
-    </div>
-
-    <div class="contact">
-        <!----------- Begin Mailchimp Signup Form ---------->
-        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-            #mc_embed_signup{max-width: 40vw; clear:left; font:14px ; width:100%;}
-            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-        </style>
-        <div id="mc_embed_signup">
-        <form action="https://yahoo.us20.list-manage.com/subscribe/post?u=73c19e5cb911acecc8622fd40&amp;id=e36cd3b2fd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-            
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_73c19e5cb911acecc8622fd40_e36cd3b2fd" tabindex="-1" value=""></div>
-            <div class="clear"><input type="submit" value="Request CV PDF" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            <div id="projects">
+                <div class="tab">
+                    <a class="tablinks" onclick="openProject(event, 'tenwest')" id="defaultOpen">10 West Salon Site</a>
+                    <a class="tablinks" onclick="openProject(event, 'landing')">Landing Page with HTML, CSS and JS</a>
+                </div>
+                <div class="contentbox">
+                    <div id="tenwest" class="tabcontent">
+                        <a href="https://10westsalon.com" target="_blank">
+                            <img src="/10westSS.png" alt="www.10westsalon.com">
+                            <p>
+                                First page made with responsive design in mind. Made for a small business in town. Mostly HTML and CSS.
+                            </p>
+                        </a>
+                    </div>
+                    <div id="landing" class="tabcontent">
+                        <a href="https://danj-O.github.io" target="_blank">
+                            <img src="/landingSS.png" alt="https://danj-O.github.io">
+                            <p>
+                                Personal portfolio page and an experiment in css animation and DOM manipulation with JS.
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
-        </form>
         </div>
+        <div class="split">
+            <p>something important</p>
+        </div>
+        <div class="about about_contact">
+            <div class="arrowstuff">
+                <a id="contact_link" class="arrow home_link animated infinite pulse slow" href="#home_link"><br>
+                    <img src="./home_arrow.png" alt="arrow">
+                </a>
+            <div class="contact">
+                <h2>Contact Dan</h2>
+                </div>
+                <div id="mailchimp">
+                    <!----------- Begin Mailchimp Signup Form ---------->
+                    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup{max-width: 40vw; clear:left; font:14px ; width:100%;}
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                    <form action="https://yahoo.us20.list-manage.com/subscribe/post?u=73c19e5cb911acecc8622fd40&amp;id=e36cd3b2fd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                        
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_73c19e5cb911acecc8622fd40_e36cd3b2fd" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Request CV PDF" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                    </div>
 
-        <!-----------------End mc_embed_signup------------->
-    </div>
-
+                    <!-----------------End mc_embed_signup------------->
+                </div>
+            </div>
+        </div>
+    </div>  
     <div class="footer">
-        A bunch of other info
+        (Footer with links to the stuff)
     </div>
     <script src='script.js'></script>
 </body>
