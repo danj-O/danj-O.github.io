@@ -165,6 +165,9 @@ div a {
 .aboutbox {
   padding-right: 5vw;
 }
+.aboutbox p {
+  line-height: 2;
+}
 .home_link {
   padding: 0;
   margin-left: 85vw;
@@ -192,7 +195,7 @@ div a {
 
 
 #projects {
-  /* column-gap: 5vw; */
+  column-gap: 5vw;
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
@@ -205,7 +208,7 @@ div a {
 .tabcontent {
   display: none;
   justify-content: center;
-  width: 40vw;
+  width: 50vw;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 /* Go from zero to full opacity */
