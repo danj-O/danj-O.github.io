@@ -162,22 +162,33 @@ div a {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.4);
   min-height: 100vh;        /*MAKES THE ABOUT FULL SCREEN*/
 }
+.aboutbox {
+  padding-right: 5vw;
+}
 .home_link {
   padding: 0;
   margin-left: 85vw;
-}
-.split {
-  text-align: right;
-  color: black;
-  padding: 20vh 5vw;
-  font-size: 3em;
 }
 .arrow img {
   min-width: 50px;
   width: 100%;
   height: auto;
 }
+.aboutcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contentbox {
+  width: 60vw;
+}
 
+
+.split {
+  text-align: right;
+  color: black;
+  padding: 20vh 5vw;
+  font-size: 3em;
+}
 
 
 #projects {
@@ -193,7 +204,8 @@ div a {
 }
 .tabcontent {
   display: none;
-  /* width: 60vw; */
+  justify-content: center;
+  width: 40vw;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 /* Go from zero to full opacity */
@@ -216,6 +228,15 @@ div a {
   .home_link {
     margin-left: 80vw;
   }
+  .aboutcontent {
+    grid-template-columns: 1fr;
+  }
+  #projects{
+    grid-template-columns: 1fr;
+  }
+  .tabcontent {
+    width: 85vw;
+  }
 }
 @media only screen and (max-width: 450px){
   .bodyContainer {
@@ -224,12 +245,6 @@ div a {
   .home_link {
     margin-left: 75vw;
   }
-  #projects{
-    grid-template-columns: 1fr;
-  }
-  /* .contentbox {
-    width: 100vw;
-  } */
 }
 
 
