@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:700&display=swap');
+
 html {
   scroll-behavior: smooth;
 }
@@ -40,6 +42,7 @@ h1 {
 }
 .dropbtn {
   font-size: 4em;
+  font-family: 'Asap', sans-serif;
   /* margin-left: 90vw;  */
 }
 div a {
@@ -174,16 +177,23 @@ div a {
   width: 100%;
   height: auto;
 }
+
+
+
+#projects {
+  /* column-gap: 5vw; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
 .tab a:hover {
-  background-color: #ddd;
+  background-color: #bb480b;
 }
 .tab a.active {
-  background-color: #ccc;
+  background-color: #ea651d;
 }
-
 .tabcontent {
   display: none;
-  width: 60vw;
+  /* width: 60vw; */
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 /* Go from zero to full opacity */
@@ -195,14 +205,10 @@ div a {
   width: 100%;
   height: auto;
 }
-#projects {
-  /* column-gap: 5vw; */
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-.contentbox {
+/* .contentbox {
   width: 60vw;
-}
+} */
+
 
 
 
@@ -218,6 +224,12 @@ div a {
   .home_link {
     margin-left: 75vw;
   }
+  #projects{
+    grid-template-columns: 1fr;
+  }
+  /* .contentbox {
+    width: 100vw;
+  } */
 }
 
 
