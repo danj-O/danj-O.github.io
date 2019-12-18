@@ -126,10 +126,10 @@ div a {
     background-color: #EA651D;
   }
   33% {
-    background-color: #EAD71D;
+    background-color: rgb(190, 174, 22);
   }
   66% {
-    background-color: #15A754;
+    background-color: rgb(14, 136, 67);
   }
 }
 .container .logo {
@@ -168,6 +168,13 @@ div a {
 .aboutbox p {
   line-height: 2;
 }
+.aboutbox a {
+  text-align: center;
+  border: solid white;
+}
+.aboutbox a:hover {
+  border: solid #ea651d;
+}
 .home_link {
   padding: 0;
   margin-left: 85vw;
@@ -201,16 +208,29 @@ div a {
 }
 .tab a:hover {
   background-color: #bb480b;
+  animation: pulseCol 15s infinite;
 }
 .tab a.active {
   background-color: #ea651d;
+  animation: pulseCol 15s infinite;
+}
+.sitelinks {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.2em;
+}
+.sitelinks a {
+  color: #bb480b;
+}
+.sitelinks a:hover {
+  color: #15A754;
 }
 .tabcontent {
   display: none;
-  justify-content: center;
+  justify-content: left;
   width: 50vw;
   animation: fadeEffect 1s;
-  line-height: 2; /* Fading effect takes 1 second */
+  line-height: 2;
 }
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
@@ -251,24 +271,8 @@ div a {
   }
 }
 
+/* ------------------CONTACT------------- */
 
-.contact {
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 5vw;
-}
-.about_contact {
-  min-height: 0vh;
-}
-#mailchimp {
-}
-
-#mc_embed_signup input.button {
-  background-color: #EA651D;
-}
-#mc_embed_signup input.button:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-}
    
 /* ----------FOOTER---------- */
 .footer {
