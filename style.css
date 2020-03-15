@@ -134,7 +134,7 @@ div a {
 }
 .container .logo {
   position: relative;
-  top: 30vh;
+  top: 20vh;
   padding: 0px 10vw;
 }
 .container .header {
@@ -194,11 +194,45 @@ div a {
 
 
 .split {
+  position: relative;
   text-align: right;
   color: black;
-  padding: 20vh 5vw;
+  padding: 10vh 5vw;
   font-size: 3em;
 }
+.ball {
+  box-shadow: 0px 0px 5px 2px black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  animation: ballbounce ease 10s infinite;
+  transition: background-color .1s ease-in-out;
+}
+.ball:hover {
+  background-color: white;
+  box-shadow: 0px 0px 5px 2px white;
+}
+
+
+@keyframes ballbounce {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: .5;
+  }
+  50% {
+    opacity: .1;
+  }
+  75% {
+    opacity: .8;
+  }
+  100% {
+    opacity: 0;
+  }
+} 
 
 
 #projects {
@@ -276,8 +310,9 @@ div a {
    
 /* ----------FOOTER---------- */
 .footer {
+  display: flex;
   background-color: black;
   font-size: 1em;
-  padding: 20vh 20vw;
+  padding: 20vh 10vw;
   transition: all 0.4s;
 }
